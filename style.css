@@ -1,8 +1,4 @@
-/*    font-family: 'Inconsolata', monospace;
 
-    font-family: 'Playfair Display', serif;
-
-    font-family: 'Ubuntu', sans-serif;*/
 
  body{
  	
@@ -75,7 +71,7 @@ header{
 	margin: 0 auto;
 	overflow: hidden;
 	
-	/*border: 1px solid red;*/
+	
 }
 .diary small{
 	font-family: 'Ubuntu', sans-serif;
