@@ -10,7 +10,6 @@
 
 /*header start*/
 header{
-	
 	padding: 15px 0;
 }
 .container{
@@ -48,7 +47,7 @@ header{
 
 }
 .menu ul li a:hover{
-	color: black;
+	color: #626262;
 	font-size: 18px;
 	transition: 0.5s;
 }
@@ -67,16 +66,22 @@ header{
 
 /*Content starts*/
 .wrapper{
-	width: 82%;
+	width: 85%;
 	margin: 0 auto;
 	overflow: hidden;
 	
 	
+	
+	
+}
+
+.diary {
+	padding: 70px 0 90px 0;
 }
 .diary small{
 	font-family: 'Ubuntu', sans-serif;
 	font-size:15px;
-	padding: 93px 0 30px 0;
+	
 
 }
 
@@ -91,28 +96,31 @@ header{
 
 
 .single_item{
-	width: 40%;
+	width: 47%;
+	margin-top: 40px;
 	float: left;
-	padding-right:110px;
-
 	
-}
 
 
-
-.single_item small{
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 15px;
-	
 	
 }
 
 .single_item img{
-	width: 450px;
-	padding-top: 127px;
-	padding-bottom: 27px;
+
+	/*padding: 142px 0 40px 0;*/
+	width: 100%;
+	margin-bottom: 27px;
+
 
 }
+
+
+.single_item small{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;	
+	
+}
+
 
 .single_item h3{
 	padding: 28px 0 27px ;
@@ -125,53 +133,94 @@ header{
 }
 
 
+.single_item:nth-child(even){
+	
+ 	margin-left: 65px;
+
+} 
+
+
+.single_item:nth-child(odd){
+	
+	padding-right: 0;
+} 
+
 /*content end*/
 
 /*newsletter starts*/
 .newsletter{
 	background-color: #F0F0F0;
-	padding-bottom: 70px;
+	padding: 76px 0 50px 0;
+	
 
 }
 
 .newsletter h3{
 	text-align: center;
-	padding: 68px 0 74px 0;
+	padding-bottom: 73px;
 	color: black;
 	font-size: 30px;
+	
 }
 
-.newsletter input {
-  width: 20%;
+
+.form{
+	display: block;
+	text-align: center;
+    margin-left:  22px;
+
+
+}
+
+
+
+.form input {
+  width: 22%;
   border: 0;
   outline: 0;
   background: transparent;
-  border-bottom: 1px solid black;
-  padding: 0 100px 0 0;
-  margin-left: 487px;
+  border-bottom: 1px solid black; 
+  padding-right: 80px; 
   font-family: 'Playfair Display', serif;
   font-size: 20px;
+
+  
+  
 }
 
-.newsletter button{
+.form  button{
 	border: 0;
 	outline: 0;
+
 	
 }
 
 .button  {
-	padding: 166px 0 189px 0;
+	padding: 70px 0 90px 0;
+	text-align: center;
 	
 }
 
 .button button{
 	font-family: 'Playfair Display', serif; 
-	padding: 15px 15px;
-	margin-left: 482px;
+	font-weight: 400;
 	font-size: 20px;
-	background-color: white;
-	
+	color: #626262;
+	background: none;
+	border: 1px solid #626262;
+	cursor: pointer;
+	width: 160px;
+	height: 50px;
 
+}
+
+.button button:focus{
+	outline: 0;
+}
+
+.button button:hover{
+	background-color: #626262;
+	color: white;
 }
 
 .foot{
@@ -183,13 +232,16 @@ header{
 
 }
 
+
+
 .private p{
 	padding-left: 117px;
 }
 
 .private p:hover{
-	color: red;
+	color: #626262;
 }
+
 .icon{
 	float: right;
 
@@ -211,7 +263,7 @@ header{
 }
 
 .icon ul li i:hover{
-	color: red;
+	color: #626262;
 }
 
 
